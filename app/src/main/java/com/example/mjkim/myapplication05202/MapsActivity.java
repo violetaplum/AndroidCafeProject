@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class zzauuaMapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     GoogleMap googleMap;
     MapFragment mapFragment;

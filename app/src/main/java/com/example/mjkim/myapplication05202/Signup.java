@@ -107,7 +107,7 @@ public class Signup  extends AppCompatActivity {
 
 
             Toast.makeText(getApplicationContext(), "회원가입에 성공했습니다", Toast.LENGTH_LONG).show();
-            Intent intent =new Intent(getApplicationContext(),MapsActivity.class);
+            Intent intent =new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);
             progressDialog.dismiss();
         }
